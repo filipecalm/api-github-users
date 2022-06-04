@@ -1,4 +1,4 @@
-Projeto realizado em React no bootcamp da Gama Academy.
+Projeto realizado em React no bootcamp da Gama Academy. <br>
 Você digita o nome de usuário do github e o app retorna todos os repositórios do mesmo usuário.
 
 # Getting Started with Create React App
