@@ -1,5 +1,9 @@
-## Projeto realizado em React no bootcamp da Gama Academy. <br>
-### Você digita o nome de usuário do github e o app retorna todos os repositórios do mesmo usuário.
+## Projeto realizado em React no bootcamp da Gama Academy: <br>
+<p>
+  <em>
+### 📚 Ao digitar o nome de usuário do github e o app retorna todos os repositórios do mesmo usuário.<br>
+  </em>
+</p>
 
 ### Habilidade desenvolvida:
 <div style="display: inline_block">
