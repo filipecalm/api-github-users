@@ -1,7 +1,7 @@
 ## Projeto realizado em React no bootcamp da Gama Academy: <br>
 <p>
   <em>
-    📚 Ao digitar o nome de usuário do github e o app retorna todos os repositórios do mesmo usuário.<br>
+    📚 Ao digitar o nome de usuário do github, o app retorna todos os repositórios do mesmo usuário.<br>
   </em>
 </p>
 
