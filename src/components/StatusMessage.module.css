@@ -1,0 +1,26 @@
+.message {
+  margin: 0;
+  padding: var(--space-4) var(--space-5);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  text-align: center;
+  animation: fade-up 360ms ease both;
+}
+
+.info {
+  background: var(--accent-soft);
+  border-color: rgba(35, 134, 54, 0.35);
+  color: var(--text);
+}
+
+.error {
+  background: rgba(248, 81, 73, 0.12);
+  border-color: rgba(248, 81, 73, 0.4);
+  color: #ffb4af;
+}
+
+.loading {
+  background: var(--bg-panel);
+  color: var(--text-muted);
+  animation: pulse 1.2s ease-in-out infinite;
+}
