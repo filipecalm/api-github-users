@@ -1,0 +1,47 @@
+.main {
+  width: min(100% - 2rem, var(--max-width));
+  margin: 0 auto;
+  padding: clamp(4rem, 18vh, 8rem) 0;
+  text-align: center;
+  display: grid;
+  gap: var(--space-3);
+  justify-items: center;
+}
+
+.code {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--accent-hover);
+  line-height: 1;
+}
+
+.title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.75rem;
+}
+
+.text {
+  margin: 0;
+  color: var(--text-muted);
+  max-width: 28rem;
+  line-height: 1.5;
+}
+
+.link {
+  margin-top: var(--space-3);
+  display: inline-flex;
+  padding: 0.75rem 1.2rem;
+  border-radius: var(--radius);
+  background: var(--accent);
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.link:hover {
+  background: var(--accent-hover);
+  text-decoration: none;
+}
