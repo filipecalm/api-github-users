@@ -1,0 +1,44 @@
+.section {
+  display: grid;
+  gap: var(--space-4);
+  animation: fade-up 480ms ease both;
+  animation-delay: 80ms;
+}
+
+.title {
+  margin: 0;
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-2);
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+}
+
+.count {
+  color: var(--text-muted);
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: var(--space-3);
+}
+
+.listItem {
+  animation: fade-up 400ms ease both;
+}
+
+.empty {
+  margin: 0;
+  padding: var(--space-5);
+  border: 1px dashed var(--border);
+  border-radius: var(--radius);
+  color: var(--text-muted);
+  text-align: center;
+  animation: fade-up 400ms ease both;
+}
